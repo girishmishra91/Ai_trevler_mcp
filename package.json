@@ -1,0 +1,13 @@
+{
+  "name": "travel-planner-mcp",
+  "version": "1.0.0",
+  "description": "AI Travel Planner with Browser MCP",
+  "type": "module",
+  "scripts": {
+    "mcp": "npx -y @agent-infra/mcp-server-browser@latest",
+    "mcp:headless": "npx -y @agent-infra/mcp-server-browser@latest --headless"
+  },
+  "dependencies": {
+    "@agent-infra/mcp-server-browser": "latest"
+  }
+}

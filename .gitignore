@@ -1,0 +1,24 @@
+# 🔐 Secrets — NEVER commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# App data
+chroma_db/
+trip_cache/
+.playwright-mcp/
+
+# macOS
+.DS_Store
